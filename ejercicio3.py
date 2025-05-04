@@ -1,8 +1,11 @@
-#playlist
+#Ejercicio 3: Operadores y Verificador de Playlist
+
+#se solicitan los datos necesarios
 duracion = float(input("¿Cuanto quieres que dure la canción? "))
 genero = (input("¿Qué género musical prefieres? "))
 añoLanzamiento = int(input("¿Qué año de lanzamiento prefieres? "))
 
+#verificamos si se cumplen los criterios
 duracionAdecuada = 2.5 <= duracion <= 4.5
 generosPermitidos = genero in ["rock", "pop", "indie"]
 añoMinimo = añoLanzamiento > 2010
