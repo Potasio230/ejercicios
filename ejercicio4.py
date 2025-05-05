@@ -9,7 +9,7 @@ print("4. Convertir fahrenheit a Celsius")
 print("5. Salir")
 
 #pedimos al usuario que elija una opción
-opcion = int(input("Seleccione una opción ( 1 - 4 ): "))
+opcion = int(input("Seleccione una opción ( 1 - 5 ): "))
 
 #opcion 1
 if opcion == 1:
